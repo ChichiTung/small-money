@@ -40,3 +40,14 @@ a {
     color-scheme: dark;
   }
 }
+
+/*  todo RWD */
+@media (max-width: 768px) {
+  .main-content {
+    padding: 16px;
+  }
+
+  .page-title {
+    font-size: 20px;
+  }
+}
