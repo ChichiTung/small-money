@@ -1,5 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Image from 'next/image';
+import styles from './page.module.css';
 
 export default function Home() {
   return (
@@ -16,7 +16,6 @@ export default function Home() {
 
         <p>Little Money</p>
         <span>小財</span>
-     
       </main>
       {/* <footer className={styles.footer}>
         <a
