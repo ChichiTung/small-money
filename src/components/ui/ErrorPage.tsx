@@ -1,4 +1,4 @@
-'use client'; //Next.js App Router 的指令，因為 ErrorBoundary 使用了瀏覽器 API（如 console.error），只能在客戶端運行
+'use client'; //Next.js App Router 的指令，因為 ErrorPage 使用了瀏覽器 API（如 console.error），只能在客戶端運行
 
 import { Button, Result } from 'antd';
 import { Component, ErrorInfo, ReactNode } from 'react'; //ReactNode - TypeScript 型別，像 vue 的 slot，可以接受任何內容(文字、數字、組件、多個元素、空值)
